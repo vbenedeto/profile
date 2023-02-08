@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+body {
+  font-family: Josefin Sans;
+  background-color: #3d0066;
+  color: #070008;
+  padding: 100px;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 30pt;
+  color: #02010a;
+}
+
+.card {
+  background-color: #a663cc;
+  padding: 0px;
+  width: 500px;
+  margin: 25px auto;
+  border-radius: 10px;
+  border: 2px solid #10002b
+}
+
+#profile-pic {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+a:hover {
+  color: white
+}
+
+/* .links {
+  background-color: #a663cc;
+  padding: 0px;
+  width: 500px;
+  margin: 25px auto;
+  border-radius: 10px;
+  border: 2px solid #10002b
+} */
+
+i {
+  font-size: 40px;
+ }
